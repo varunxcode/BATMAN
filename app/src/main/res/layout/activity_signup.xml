@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@color/white">
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/joker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logo"
+        android:hint="NAME"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/login_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+
+        android:layout_below="@+id/login_name"
+        android:textColorHint="@color/black"
+        android:hint="EMAIL"
+        android:background="@drawable/login_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/login_username"
+        android:hint="PASSWORD"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black"
+        android:background="@drawable/login_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/login_password"
+        android:text="sign up"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</RelativeLayout>

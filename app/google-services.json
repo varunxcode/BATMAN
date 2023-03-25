@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576444976905",
+    "project_id": "secondtime-16b80",
+    "storage_bucket": "secondtime-16b80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576444976905:android:e2e8a3ee94489f6f7a8dd8",
+        "android_client_info": {
+          "package_name": "com.vrx.goagain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576444976905-3envlkeve1pa038lahqp08fk0vumf4da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9FjbdQS8R3LYKOagrF0zj0gIo4l18hSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576444976905-3envlkeve1pa038lahqp08fk0vumf4da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
